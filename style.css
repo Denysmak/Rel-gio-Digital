@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+body{
+  height: 100vh;
+  background-color: rgb(0, 12, 12);
+  color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+    font-size: 8rem;
+    font-family: 'Monomaniac One', sans-serif;
+    margin: 0;
+    line-height: 65px;
+    text-align: center;
+    text-shadow: 0.1em 0.05em 2em aquamarine;
+}
+.relogio{
+    display: flex;
+    height: 90px;
+    align-items: flex-start;
+}
