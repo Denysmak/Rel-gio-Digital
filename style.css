@@ -17,9 +17,20 @@ h1{
     text-shadow: 0.1em 0.05em 2em aquamarine;
 }
 .relogio{
-    display: flex;
+    display: none;
     height: 90px;
     align-items: flex-start;
+    animation-duration: 1s;
+}
+@keyframes slidein {
+    from {
+        margin-right: 180%;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0;
+        opacity: 1;
+    }
 }
 @media (max-width: 1100px) {
 h1{
